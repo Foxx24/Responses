@@ -1,0 +1,123 @@
+/* RESPONSES */
+header {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	background-color: #fcb827;
+	z-index: 1;
+}
+
+body {
+	display: block;
+	margin-left: 8px;
+}
+
+header * {
+	display: inline;
+	height: 50px;
+}
+
+
+li {
+	color: white;
+}
+
+h1 {
+	color: white;
+	position: absolute;
+	left: 0;
+	bottom: 10%;
+	width: 100%;
+	text-align: center;
+}
+
+header ul {
+	padding: 0;
+}
+
+header li {
+	margin-left: 20px;
+}
+.banner{
+	width:100%;
+	background-image: url(img/Lakers2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+section {
+	border: 1px red;
+	display: flex;
+	height: 100vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.footer {
+	text-align: center;
+}
+nav {
+	position: fixed;
+    top: 0;
+    width: 100%;
+   	left: 78px;
+    background-color: rgb(252, 184, 39);
+    height: 3em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    z-index: -1;
+}
+div a{
+	text-decoration: none;
+	color: white;
+	width:100%;
+	transition: color 0.5s;
+	padding-top: 0.5em;
+	padding-right: 1em;
+	display: block;
+	font-size: 1.3em;
+	z-index: 1;
+}
+nav a:hover {
+	color: purple;
+}
+
+.about-section {
+	width: 100%;
+	padding: 0.5em 0.5em 0vh;
+	background: purple;
+	display: block;
+}
+
+p {
+	color: white;
+	text-align: left;
+}
+.grid {
+	max-width: calc(880px + 1em);
+	display: flex;
+	flex-wrap: wrap;
+	top: 4em;
+	background: purple;
+}
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: calc(50% - 1em);
+}
+
+.images {
+	margin: 0;
+	padding: 6.5em;
+	width: calc(32.33% - .5em);
+}
